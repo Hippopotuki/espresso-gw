@@ -1,6 +1,7 @@
 #include <iostream>
+#include "info.h"
 
 int main()
 {
-	std::cout << "Hello World!\n";
+	std::cout << espresso::info() << '\n';
 }
