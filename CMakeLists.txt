@@ -6,7 +6,7 @@ project(vpn_gateway
 )
 
 add_executable(vpn_gateway
-	main.cpp
+	src/main.cpp
 )
 
 target_compile_options(vpn_gateway PRIVATE 
